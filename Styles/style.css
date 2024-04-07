@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Trocchi&display=swap');
+
+
+.btn-outline-dark {
+    color: #000;
+    border-color: #000;
+}
+
+/* Tema Escuro */
+.dark-theme .btn-outline-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+#myCarousel .carousel-item {
+    height: 90vh;
+    min-height: 350px; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myCarousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 90vh;
+}
+
+.titulo {
+    
+    font-size: 50px;
+    border-radius: 90px;
+    gap: 30px;
+    text-align: center;
+    font-family: "Trocchi", serif; 
+    color: #929fec;   
+}
+
+.paragraph {
+    font-size: 15px;
+    font-family: "Trocchi", serif;
+}
+
+.paragraph1{
+    font-size: 15px;
+    font-family: "Trocchi", serif;
+}
+.titulo1 {
+    font-size: 50px;
+    font-family: "Trocchi", serif;
+    color: #929fec;
+}
+
+.paragraph2 {
+    font-size: 15px;
+    font-family: "Trocchi", serif;
+}
+
+.titulo2{
+    font-size: 50px;
+    font-family: "Trocchi", serif;
+    color: #929fec;
+}
+
+.med {
+    color: aquamarine;
+}
+
+#services {
+    text-align: center;
+    border-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #929fec;
+    border: solid 2px;
+    
+}
+
+.paragraphInfo {
+    text-align: center;
+    font-family: "Trocchi", serif; 
+
+}
+
+
+.pag {
+    text-align: center;
+}
+
+.pagP {
+    text-align: center;
+}
+
+#contact {
+    color: #929fec;
+    border: solid 2px;
+    width: 103px;
+}
+
+
+#btn-contact {
+    display: flex;
+    margin-right: auto;
+    margin-left: 500px;
+}
+
+
+.btn-outline-dark {
+    color: #000;
+    border-color: #000;
+}
+
+/* Tema Escuro */
+.dark-theme .btn-outline-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+#services3 {
+    color: white;
+    text-align: center;
+    border: solid 1px;
+    font-size: 40px;
+    gap: 30px;
+}
+
+.testGlicose {
+    font-family: "Trocchi", serif;
+    gap: 10px;
+    
+}
+/* Estilo para o modo escuro */
+.dark-mode {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+}
+/* Estilo para os cards */
+.card {
+    background-color: #fff; 
+    color: #000; 
+   
+}
+
+Estilo para os cards no modo escuro */ */
+.dark-mode .card {
+    background-color: #343a40;  
+     color: #f8f9fa;  
+     
+
+ }
+ .service-description {
+    font-size: 16px;
+    line-height: 1.6;
+ }
+
+.services90 {
+    color: #929fec;
+    border: solid 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mednote {
+    color: #929fec;
+    border: solid 2px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

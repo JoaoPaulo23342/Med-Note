@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med-Note</title>
+    
+    <!-- link do Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link do Bootstrap Js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./Styles/style.css">
+
+    <!-- Link Js -->
+    <script defer src="./script/Index.js"></script>
+
+    <!-- Link Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav-Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"  ">MedNote</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Nossos Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Sobre nós</a>
+              </li>
+              
+              </li>
+              <button id="theme-toggle" style="border-radius: 10px; background-color: black; color: white;">Mudar o tema</button></ul>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </nav>
+    
+
+    <!-- Seus elementos HTML aqui -->
+    <div id="content">
+    
+    </div>
+        
+    </div>
+      <br>
+      <br>
+      
+
+      <!-- Img -->
+      
+    <div class="position-relative">
+        <img src="./uploads/medservices.jpg" class="img-fluid" alt="Um banner para a clinica" style="height: 800px; width: 3000px;">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h1 class="text-black">O cuidado que transforma vidas, com excelência e empatia</h1>
+        </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   
+    <!-- Cards -->
+    <p class="h2" id="services">Nossos Serviços</p>
+    <br>
+    <br>
+
+      <div class="container">
+     <!-- serviços de imagem -->
+     <div class="row">
+      <div class="col-sm-4">
+          <div class="card mb-3">
+              <div class="card-body">
+                  <h5 class="card-title">Tomografia</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Explorando o Interior: Tomografia</h6>
+                  <p class="card-text">Descubra a fascinante ciência por trás da tomografia, uma técnica de imagem que permite uma visão detalhada do interior de objetos e organismos vivos. Desde diagnósticos médicos precisos até avanços em pesquisas científicas, a tomografia desempenha um papel crucial na compreensão e no tratamento de uma variedade de condições médicas e fenômenos naturais.</p>
+                  <!-- Botão para abrir o off-canvas -->
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" aria-controls="offcanvasExample1">
+                      Saiba Mais
+                  </button>
+
+                  <!-- Off-canvas -->
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel1">
+                      <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel1">Mais Informações</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <!-- Conteúdo do off-canvas -->
+                          <p>A tomografia computadorizada (TC) é um exame de imagem que utiliza raios X para gerar imagens detalhadas do interior do corpo, permitindo a observação de ossos, órgãos e outros tipos de tecidos. Esse procedimento é valioso para identificar problemas de saúde como tumores, aneurismas ou infecções. A TC não causa dor e pode ser realizada por qualquer pessoa. No entanto, grávidas devem considerar alternativas como ultrassom ou ressonância magnética, pois a exposição à radiação é maior na tomografia.
+
+                            A tomografia pode ser feita com ou sem o uso de contraste, um líquido que pode ser engolido, injetado na veia ou inserido no reto durante o exame. O contraste facilita a visualização de certas partes do corpo. É importante seguir as orientações médicas relacionadas ao preparo para a tomografia com contraste.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Adicione mais colunas para outros cards de imagem -->
+      <!-- Segundo card -->
+      <div class="col-sm-4">
+          <div class="card mb-3">
+              <div class="card-body">
+                  <h5 class="card-title">Ressonância Magnética</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Explorando o Interior: Ressonância Magnética</h6>
+                  <p class="card-text">Conheça a tecnologia de ressonância magnética, que nos permite visualizar estruturas internas do corpo humano de forma detalhada e não invasiva. A ressonância magnética é essencial para diagnósticos precisos e tratamentos avançados em diversas áreas médicas.</p>
+                  <!-- Botão para abrir o off-canvas -->
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample2" aria-controls="offcanvasExample2">
+                      Saiba Mais
+                  </button>
+
+                  <!-- Off-canvas -->
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel2">
+                      <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel2">Mais Informações</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <!-- Conteúdo do off-canvas -->
+                          <p>A ressonância magnética (RM) é um exame de diagnóstico por imagem que utiliza um campo magnético de alta intensidade e ondas de rádio para visualizar com grande definição as estruturas internas dos órgãos. Esse procedimento, também conhecido como ressonância magnética nuclear (RMN), é solicitado pelo médico nos casos de suspeita de alterações no cérebro, medula espinhal, coração, ossos, articulações ou outros órgãos como rins, fígado ou vesícula biliar. A RM é capaz de identificar vários problemas de saúde, como aneurismas, tumores, alterações nas articulações ou outras lesões nos órgãos internos. Além disso, em alguns casos, pode ser utilizado o contraste de gadolínio para obter imagens com mais qualidade 1.
+
+                            Aqui estão algumas informações importantes sobre a ressonância magnética:
+                            
+                            Para que serve:
+                            Avaliar, identificar, diagnosticar e acompanhar o tratamento de várias condições de saúde, como doenças neurodegenerativas (como Alzheimer ou esclerose múltipla), lesões, alterações ou tumores no cérebro, ossos, coração ou outros órgãos</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Terceiro card -->
+      <div class="col-sm-4">
+          <div class="card mb-3">
+              <div class="card-body">
+                  <h5 class="card-title">Ecografia</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Explorando o Interior: Ecografia</h6>
+                  <p class="card-text">Descubra como a ecografia, ou ultrassonografia, é utilizada para diagnosticar e monitorar uma variedade de condições médicas. A ecografia é uma ferramenta não invasiva e segura que oferece imagens em tempo real do interior do corpo humano.</p>
+                  <!-- Botão para abrir o off-canvas -->
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample3" aria-controls="offcanvasExample3">
+                      Saiba Mais
+                  </button>
+
+                  <!-- Off-canvas -->
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample3" aria-labelledby="offcanvasExampleLabel3">
+                      <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel3">Mais Informações</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <!-- Conteúdo do off-canvas -->
+                          <p>A ecografia, também conhecida como ultrassonografia, é um exame que utiliza ultrassons para avaliar as estruturas anatómicas do nosso organismo. Esse procedimento é realizado por meio de um aparelho chamado ecógrafo, que produz os ultrassons. Vamos explorar os detalhes:
+
+                            Ecografia Abdominal: Também conhecida como eco abdominal, é indicada principalmente para avaliar o fígado, vesícula e vias biliares. Além disso, permite avaliar o baço, pâncreas e a presença de líquido intra-abdominal.
+                            Ecografia Tiróidea: Utilizada para avaliar a glândula tiróide, especialmente quando há alterações nas hormonas tiroideias ou para a pesquisa de nódulos tiroideus.
+                            Ecografia Renal: Indicada nos casos de patologia renal, como litíase renal (pedra nos rins) ou para avaliação de outras condições renais.
+                            Ecografia Vesical: Permite avaliar a bexiga e é utilizada para diagnosticar tumores benignos ou malignos, cálculos urinários, divertículos e infecções urinárias recorrentes.
+                            Ecografia Torácica: Principalmente utilizada para avaliar a presença de derrame pleural (líquido nos pulmões).
+                            Ecografia da Pelve: Avalia os órgãos pélvicos, como o útero e ovários nas mulheres, e a próstata nos homens. É necessário que a bexiga esteja cheia para a correta execução.
+                            Ecografia do Ombro: Realizada para avaliar músculos e tendões do ombro em casos de dor nessa região.
+                            Ecografia Prostática: Utilizada para avaliar a próstata.
+                            A ecografia é uma técnica de imagem médica não invasiva, que utiliza ondas sonoras para gerar imagens do interior do corpo humano, órgãos e vasos sanguíneos. Ela pode ser solicitada para check-ups, investigação ou acompanhamento de tratamentos, e é capaz de detectar malformações, miomas, cistos, nódulos, tumores e outras condições. É uma opção confortável, segura e acessível para auxiliar os médicos no diagnóstico e monitoramento de diversas doenças.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- serviços de exames laboratoriais -->
+  <div class="row">
+    <!-- Primeiro card -->
+    <div class="col-sm-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Hemograma</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Exames Laboratoriais: Hemograma</h6>
+                <p class="card-text">Saiba mais sobre o hemograma, um exame de sangue que fornece informações essenciais sobre a contagem de células sanguíneas, incluindo glóbulos vermelhos, glóbulos brancos e plaquetas. É usado para diagnosticar uma variedade de condições médicas.</p>
+                <!-- Botão para abrir o off-canvas -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHemograma" aria-controls="offcanvasHemograma">
+                    Saiba Mais
+                </button>
+
+                <!-- Off-canvas -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasHemograma" aria-labelledby="offcanvasHemogramaLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasHemogramaLabel">Mais Informações</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <!-- Conteúdo do off-canvas -->
+                        <p>O hemograma é um dos exames laboratoriais mais comuns e abrangentes, usado para avaliar a saúde e o funcionamento do sistema sanguíneo. Ele fornece informações valiosas sobre a contagem e a qualidade dos diferentes tipos de células sanguíneas, incluindo glóbulos vermelhos (hemácias), glóbulos brancos (leucócitos) e plaquetas.
+
+                            Durante o procedimento, uma pequena amostra de sangue é geralmente coletada da veia do braço do paciente e submetida a análises laboratoriais. Os resultados do hemograma incluem várias medidas importantes:
+                            
+                                Contagem de Glóbulos Vermelhos (Hemácias): Avalia a quantidade de hemácias presentes no sangue. As hemácias são responsáveis pelo transporte de oxigênio dos pulmões para os tecidos do corpo e ajudam a remover o dióxido de carbono dos tecidos para os pulmões.
+                            
+                                Hemoglobina: Uma proteína presente nas hemácias que transporta oxigênio. A medição da hemoglobina fornece informações sobre a capacidade do sangue de transportar oxigênio pelo corpo.
+                            
+                                Hematócrito: Indica a proporção de volume ocupado pelas hemácias em relação ao volume total de sangue. É um indicador importante da quantidade de glóbulos vermelhos no sangue.
+                            
+                                Contagem de Glóbulos Brancos (Leucócitos): Avalia a quantidade de células de defesa presentes no sangue, que desempenham um papel vital no combate a infecções e na resposta imunológica do corpo.
+                            
+                                Fórmula Leucocitária: Fornece informações sobre a distribuição dos diferentes tipos de glóbulos brancos, como neutrófilos, linfócitos, monócitos, eosinófilos e basófilos. Essa distribuição pode ser útil na identificação de infecções ou distúrbios do sistema imunológico.
+                            
+                                Contagem de Plaquetas: Avalia a quantidade de plaquetas no sangue, que desempenham um papel essencial na coagulação sanguínea, ajudando a prevenir ou controlar sangramentos excessivos.
+                            
+                            Esses dados fornecem uma visão abrangente da saúde sanguínea do paciente, ajudando os profissionais de saúde a diagnosticar uma variedade de condições, como anemia, infecções, distúrbios imunológicos, distúrbios de coagulação e muitas outras doenças hematológicas.
+                            
+                            Em resumo, o hemograma é uma ferramenta essencial na avaliação da saúde sanguínea global do paciente, fornecendo informações cruciais para o diagnóstico, tratamento e monitoramento de uma ampla gama de condições médicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Segundo card -->
+    <div class="col-sm-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Teste de Colesterol</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Exames Laboratoriais: Colesterol</h6>
+                <p class="card-text">Conheça mais sobre o teste de colesterol, um exame laboratorial que mede os níveis de colesterol no sangue. O colesterol é uma substância essencial para o corpo, mas níveis elevados podem aumentar o risco de doenças cardíacas.</p>
+                <!-- Botão para abrir o off-canvas -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasColesterol" aria-controls="offcanvasColesterol">
+                    Saiba Mais
+                </button>
+
+                <!-- Off-canvas -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasColesterol" aria-labelledby="offcanvasColesterolLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasColesterolLabel">Mais Informações</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <!-- Conteúdo do off-canvas -->
+                        <p>O exame de colesterol é uma análise laboratorial essencial para avaliar os níveis de gordura no sangue, especificamente lipoproteínas de baixa densidade (LDL), lipoproteínas de alta densidade (HDL) e triglicerídeos. Esses componentes lipídicos são fundamentais para o funcionamento saudável do organismo, mas níveis desequilibrados podem aumentar o risco de doenças cardiovasculares, como ataques cardíacos e derrames.
+
+                            Durante o exame, uma pequena quantidade de sangue é geralmente coletada da veia do braço do paciente e analisada em laboratório. Os resultados fornecem informações precisas sobre os níveis de colesterol total, HDL (considerado "bom" colesterol, pois ajuda a remover o excesso de colesterol das artérias), LDL (considerado "mau" colesterol, pois pode se acumular nas paredes das artérias, levando à formação de placas) e triglicerídeos (uma forma de gordura que é armazenada no corpo para energia).
+                            
+                            Esses dados são cruciais para avaliar o risco de desenvolver doenças cardiovasculares e ajudar os profissionais de saúde a recomendar intervenções preventivas, como mudanças na dieta, exercícios físicos, medicamentos redutores de colesterol ou outras medidas necessárias para manter os níveis de colesterol dentro de uma faixa saudável.
+                            
+                            Em suma, o exame de colesterol desempenha um papel vital na prevenção e no gerenciamento de doenças cardiovasculares, permitindo intervenções precoces e personalizadas para promover a saúde do coração e a qualidade de vida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Terceiro card -->
+    <div class="col-sm-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Teste de Glicose</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Exames Laboratoriais: Glicose</h6>
+                <p class="card-text">Saiba mais sobre o teste de glicose, um exame de sangue utilizado para medir os níveis de glicose (açúcar) no sangue. É frequentemente usado para diagnosticar e monitorar diabetes e outras condições relacionadas à glicose.</p>
+                <!-- Botão para abrir o off-canvas -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasGlicose" aria-controls="offcanvasGlicose">
+                    Saiba Mais
+                </button>
+
+                <!-- Off-canvas -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasGlicose" aria-labelledby="offcanvasGlicoseLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasGlicoseLabel">Mais Informações</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <!-- Conteúdo do off-canvas -->
+                        <p class="testGlicose">O teste de glicose desempenha um papel crucial na avaliação da saúde metabólica e na gestão de condições como o diabetes. Na Clínica MedNote, reconhecemos a importância de educar nossos pacientes sobre esse procedimento vital. Este guia busca fornecer uma visão abrangente sobre o teste de glicose, desde sua importância até a sua realização e interpretação dos resultados.
+
+                            Por que o Teste de Glicose é Importante?
+                            A glicose é a principal fonte de energia do nosso corpo e sua regulação é essencial para o funcionamento adequado dos órgãos e sistemas. O teste de glicose é fundamental para detectar desequilíbrios no metabolismo do açúcar, como o diabetes, que pode levar a complicações sérias se não for tratado adequadamente.
+                            
+                            Tipos de Teste de Glicose:
+                            Existem vários métodos para medir os níveis de glicose no sangue, incluindo testes de glicemia em jejum, teste de tolerância à glicose e monitoramento contínuo da glicose. Cada método tem sua própria aplicação e fornece informações importantes sobre a saúde metabólica do paciente.
+                            
+                            Preparação para o Teste:
+                            Dependendo do tipo de teste de glicose a ser realizado, pode ser necessário seguir instruções específicas de preparação. Isso pode incluir jejum durante a noite para um teste de glicemia em jejum ou consumir uma solução de glicose para um teste de tolerância à glicose.
+                            
+                            Realização do Teste:
+                            O teste de glicose geralmente envolve a coleta de uma pequena amostra de sangue, que pode ser obtida através de uma picada no dedo ou de uma amostra venosa. O sangue é então analisado usando um medidor de glicose ou enviado para um laboratório para análise mais detalhada.
+                            
+                            Interpretação dos Resultados:
+                            Os resultados do teste de glicose são expressos em miligramas por decilitro (mg/dL) e podem variar dependendo de vários fatores, incluindo a hora do dia e a ingestão recente de alimentos. Se os níveis de glicose estiverem fora da faixa normal, isso pode indicar uma condição como diabetes ou pré-diabetes, e o paciente pode precisar de acompanhamento adicional com um médico.
+                            
+                            Conclusão:
+                            O teste de glicose é uma ferramenta fundamental na avaliação da saúde metabólica e no diagnóstico de condições como o diabetes. Na Clínica MedNote, estamos comprometidos em fornecer cuidados de qualidade e educar nossos pacientes sobre a importância desse procedimento. Esperamos que este guia ajude a esclarecer quaisquer dúvidas que você possa ter sobre o teste de glicose e o capacite a tomar decisões informadas sobre sua saúde. Para mais informações ou para agendar um teste de glicose, entre em contato conosco. Estamos aqui para ajudar você a viver uma vida mais saudável e plena.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+            
+        </div>
+    </div>
+  </div>
+    
+  <br>
+  <br>
+  <br>
+  <br>
+    
+  <p class="h2" id="services">Informações da clínica</p>
+  <!-- espaçamento -->
+  <br>
+  <br>
+  
+<!-- conteúdo Das informações -->
+<p class="text-center paragraphInfo">
+  <strong>Clínica Médica MED-NOTE</strong><br>
+  Localizada na Avenida Central, BLOCO 2, Bairro LAGO OESTE, Cidade ABC<br>
+  Telefone: (00) 1234-5678<br>
+  E-mail: info@mednoteclinicamedica.com<br>
+  Website: <a href="">www.mednoteclinicamedica.com</a><br><br>
+  
+  <strong>Sobre a Clínica:</strong><br>
+  A Clínica Médica Med Note é uma instituição dedicada ao cuidado da saúde, oferecendo uma ampla gama de serviços médicos e especialidades para pacientes de todas as idades. Nossa equipe médica altamente qualificada e comprometida trabalha em conjunto para fornecer cuidados de saúde abrangentes e personalizados, visando o bem-estar e a qualidade de vida de nossos pacientes.<br><br>
+
+  <strong>Equipe Médica:</strong><br>
+            Nossa equipe é composta por médicos especialistas altamente qualificados e experientes em diversas áreas da medicina. Estamos comprometidos em fornecer cuidados de saúde de qualidade, combinando conhecimento médico avançado com uma abordagem humanizada para o tratamento de nossos pacientes.<br><br>
+            
+            <strong>Agende sua Consulta:</strong><br>
+            Para agendar uma consulta ou obter mais informações sobre nossos serviços, entre em contato conosco pelo telefone (00) 1234-5678 ou através do nosso website <a href="http://www.mednoteclinicamedica.com">www.mednoteclinicamedica.com</a>. Estamos sempre à disposição para atender às suas necessidades de saúde.<br><br>
+
+          <br>
+          <br>
+          <br>
+          <br>
+           <footer>
+          <div style="background-color: black;"><p class="h2" id="services3">Contato</p>
+          <br>
+          <br>
+          <br>
+
+          <!-- Contatos logo abaixo -->
+          <div class="d-flex justify-content-center">
+            <!-- Botões de Contato -->
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="tel:+0012345678" class="btn btn-outline-primary btn-lg btn-block mb-3">Ligue Agora</a>
+                </div>
+                <div class="col-md-6">
+                    <a href="" class="btn btn-outline-primary btn-lg btn-block mb-3">Envie um E-mail</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="color: black;">projeto Criado Por João Paulo</p>
+                    
+    </div>
+</div></div></div></footer> 
+          
+                
+
+
+
+
+          </body>
+</html>
