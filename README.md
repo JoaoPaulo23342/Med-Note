@@ -13,7 +13,7 @@ Este repositório contém o código-fonte para a página web da clínica médica
 
 1. **Clonar o repositório:**
    ````
-   git clone 
+   git clone https://github.com/JoaoPaulo23342/Med-Note.git
 
     Acessar o diretório do projeto:
 
